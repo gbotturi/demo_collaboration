@@ -151,7 +151,7 @@ Children:
       Id: g=b128fd7f0346593cafea17ce4db8449b
       Type: BaseDataVariableType
       DataType: Float
-      Value: 20.0
+      Value: 78.0
   - Name: BeltSpeed
     Id: g=d4b3697113544585bd84cd386f79ceb2
     Type: AnalogItemType
