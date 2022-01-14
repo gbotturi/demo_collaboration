@@ -11,8 +11,8 @@ Children:
   - Name: ns=0;EURange
     Id: g=db56ec2502f82d149a4392b979594510
     Type: RangeType
-    DataType: Int32
-    Value: 0
+    DataType: EURange
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
     Children:
     - Name: Low
       Id: g=045ad4c163fd572bc8c97a5dd4dbdde2

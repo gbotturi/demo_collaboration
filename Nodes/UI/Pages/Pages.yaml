@@ -2071,8 +2071,8 @@ Children:
             - Name: ns=0;EURange
               Id: g=3cab2841c48768731a25a0864947e281
               Type: RangeType
-              DataType: Int32
-              Value: 0
+              DataType: EURange
+              Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
               Children:
               - Name: Low
                 Id: g=db53440b947280bb6ac11b1ca9754e07
@@ -6013,8 +6013,8 @@ Children:
               - Name: ns=0;EURange
                 Id: g=ad12a53002995755a429338ff6ac5953
                 Type: RangeType
-                DataType: Int32
-                Value: 0
+                DataType: EURange
+                Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
                 Children:
                 - Name: Low
                   Id: g=4626a6043e506e019796e17255f013be
@@ -6101,7 +6101,7 @@ Children:
                 Id: g=a5dde62e00fb2d7048a58691e2911682
                 Type: DataBind
                 DataType: NodePath
-                Value: "{StyleSheetRecipeSchema}/FontFamily@DisplayName"
+                Value: "{NodeId:ns=28;g=c59c9766-6d0f-d865-d482-2d01ce43a166}@DisplayName"
             - Name: LeftMargin
               Id: g=5be093dac290b31e61b4ac52033469ef
               Type: BaseVariableType
