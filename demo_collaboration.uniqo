@@ -111,5 +111,9 @@ Project:
    Uri: 'urn:QPlatform:Retentivity:Net'
    Module: QPlatform.Retentivity.Net
    Version: 2.0.0.0
+  29:
+   Uri: 'urn:QPlatform:WebUI'
+   Module: QPlatform.WebUI
+   Version: 2.2.0.0
  Nodes:
  - File: Nodes/demo_collaboration.yaml
