@@ -297,3 +297,28 @@ Children:
         Type: BaseDataVariableType
         DataType: ResourceUri
         Value: "ns=28;%PROJECTDIR%/ActiveStatusDark.svg"
+- Name: SlabConverter
+  Id: g=616d2a9f04fe0a380eb89877bf1997c8
+  Supertype: LinearConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Source
+    Id: g=848a75d958eeb3d74c5b32a5cdd771fd
+    Type: BaseDataVariableType
+    DataType: Number
+    ReferenceType: HasSource
+    Value: {"Type":11,"Body":0.0}
+  - Name: Slope
+    Id: g=6bdada8b51e76b6b3a670669fd034ec4
+    Type: BaseDataVariableType
+    DataType: Double
+    ReferenceType: HasParameter
+    ModellingRule: Optional
+    Value: 10.0
+  - Name: Intercept
+    Id: g=72c315b7c36fd712570498f4d03bcc37
+    Type: BaseDataVariableType
+    DataType: Double
+    ReferenceType: HasParameter
+    ModellingRule: Optional
+    Value: 5.0
