@@ -79,6 +79,11 @@ Children:
           DataType: LocalizedText
           ReferenceType: HasProperty
           Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Thickness
+      Id: g=37435eb3604f6a5eceb8424b56c18bb5
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 20.0
   - Name: Slab2
     Id: g=0cf7d48b57867e00daeacfe4e74eb8a6
     Type: Slab
@@ -142,6 +147,11 @@ Children:
           DataType: LocalizedText
           ReferenceType: HasProperty
           Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Thickness
+      Id: g=b128fd7f0346593cafea17ce4db8449b
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 20.0
   - Name: BeltSpeed
     Id: g=d4b3697113544585bd84cd386f79ceb2
     Type: AnalogItemType
