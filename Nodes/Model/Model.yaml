@@ -83,7 +83,7 @@ Children:
       Id: g=37435eb3604f6a5eceb8424b56c18bb5
       Type: BaseDataVariableType
       DataType: Float
-      Value: 20.0
+      Value: 30.0
   - Name: Slab2
     Id: g=0cf7d48b57867e00daeacfe4e74eb8a6
     Type: Slab
