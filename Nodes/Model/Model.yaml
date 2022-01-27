@@ -900,7 +900,7 @@ Children:
       Id: g=a4289239d82cf8cca36327d6cde689ef
       Type: BaseDataVariableType
       DataType: Int32
-      Value: 0
+      Value: 7
     - Name: Acceleration
       Id: g=cb44d374d7e32b89c830247edfcac3cd
       Type: BaseDataVariableType
