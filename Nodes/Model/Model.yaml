@@ -869,6 +869,20 @@ Children:
           ReferenceType: HasProperty
           Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
 - File: AsemConfig/AsemConfig.yaml
+- Name: Motor1
+  Id: g=4a71f3754ca33f73d558c486feda311b
+  Type: BaseObjectType
+  Children:
+  - Name: Speed
+    Id: g=50b9291344d833554e33b8699adb193a
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Acceleration
+    Id: g=b625efa979e5bc2853ee30c7b308a845
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
 - Name: Motor2
   Id: g=2b7eb1bc6991b88a5e9b8c9d7c6213e6
   Type: BaseObjectType
