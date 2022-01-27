@@ -892,6 +892,54 @@ Children:
       Type: BaseDataVariableType
       DataType: Int32
       Value: 5
+    - Name: RPM
+      Id: g=37b01c01f294baf00d6cd8ca36119e9f
+      Type: AnalogItemType
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: EURange
+        Id: g=938d1c7ae622195551ab397fa42b21bd
+        Type: RangeType
+        DataType: EURange
+        Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+        Children:
+        - Name: Low
+          Id: g=7ac20b1f477264c95d9486732be2bb99
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+          Value: 50.0
+        - Name: High
+          Id: g=0c22565bbc4e2fc782d73f435c6ee99c
+          Type: BaseVariableType
+          DataType: Double
+          ReferenceType: HasProperty
+          Value: 100.0
+      - Name: EngineeringUnits
+        Id: g=9a66ec1e298c8228a1de8f62920cd8c6
+        Type: EUInformationType
+        DataType: EUInformation
+        Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+        Children:
+        - Name: UnitId
+          Id: g=c24d3849129eac22fecfb519b32ca2f2
+          Type: BaseVariableType
+          DataType: Int32
+          ReferenceType: HasProperty
+          Value: -1
+        - Name: DisplayName
+          Id: g=5dafca74aeaabf27314d2f4e5818d6fe
+          Type: BaseVariableType
+          DataType: LocalizedText
+          ReferenceType: HasProperty
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Description
+          Id: g=c9caf6f7379fb24ed3fe754e1d87d9e3
+          Type: BaseVariableType
+          DataType: LocalizedText
+          ReferenceType: HasProperty
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: Motor3
     Id: g=a5b9794a9ed77bae3a8c04d64e69c7a5
     Type: BaseObjectType
