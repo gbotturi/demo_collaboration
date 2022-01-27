@@ -887,6 +887,11 @@ Children:
       Type: BaseDataVariableType
       DataType: Int32
       Value: 0
+    - Name: Torque
+      Id: g=388ceb01c0d01b09774e0184d9a8ec58
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 1
   - Name: Motor2
     Id: g=2b7eb1bc6991b88a5e9b8c9d7c6213e6
     Type: BaseObjectType
