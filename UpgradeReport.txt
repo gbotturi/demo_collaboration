@@ -1,0 +1,10 @@
+Project C:/dev/tmp/demo_collaboration/demo_collaboration.uniqo upgraded on 27-01-2022 11:04:21.819
+
+Upgraded modules:
+QPlatform.Core.Net: from 6.1.0.0 to 6.2.0.0
+QPlatform.UI: from 42.3.0.0 to 43.0.0.0
+QPlatform.UI.Net: from 30.5.0.0 to 31.0.0.0
+QPlatform.NativeUI: from 25.5.0.0 to 26.0.0.0
+QPlatform.WebUI: from 2.2.0.0 to 3.0.0.0
+
+No potential breaking changes detected

@@ -5,12 +5,12 @@ Project:
  Company: ''
  Copyright: ''
  FormatVersion: 1
- CoreVersion: 7.1.0.0
+ CoreVersion: 7.2.0.0
  Dependencies:
   2:
    Uri: 'urn:QPlatform:Core:Net'
    Module: QPlatform.Core.Net
-   Version: 6.1.0.0
+   Version: 6.2.0.0
   3:
    Uri: 'urn:QPlatform:OPCUAServer'
    Module: QPlatform.OPCUAServer
@@ -30,11 +30,11 @@ Project:
   7:
    Uri: 'urn:QPlatform:UI'
    Module: QPlatform.UI
-   Version: 42.3.0.0
+   Version: 43.0.0.0
   8:
    Uri: 'urn:QPlatform:UI:Net'
    Module: QPlatform.UI.Net
-   Version: 30.5.0.0
+   Version: 31.0.0.0
   9:
    Uri: 'urn:QPlatform:Report'
    Module: QPlatform.Report
@@ -70,7 +70,7 @@ Project:
   17:
    Uri: 'urn:QPlatform:NativeUI'
    Module: QPlatform.NativeUI
-   Version: 25.5.0.0
+   Version: 26.0.0.0
   18:
    Uri: 'urn:QPlatform:NativeUI:Net'
    Module: QPlatform.NativeUI.Net
@@ -114,6 +114,6 @@ Project:
   29:
    Uri: 'urn:QPlatform:WebUI'
    Module: QPlatform.WebUI
-   Version: 2.2.0.0
+   Version: 3.0.0.0
  Nodes:
  - File: Nodes/demo_collaboration.yaml
