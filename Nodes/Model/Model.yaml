@@ -901,3 +901,17 @@ Children:
       Type: BaseDataVariableType
       DataType: Int32
       Value: 0
+  - Name: Motor3
+    Id: g=c56298f53858e005143f4a09f9f23ce3
+    Type: BaseObjectType
+    Children:
+    - Name: Speed
+      Id: g=cb83c3a2ac17d0b097f4cc966fda0eed
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: Acceleration
+      Id: g=23752b28c9f1bd4b79ea9222c0b13d9c
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
